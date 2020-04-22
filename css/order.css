@@ -58,11 +58,7 @@ html, body{
   #deliveryForm input{
     color: black;
   }
-
-  .pizza-sizes{
-    margin-bottom: 1em;
-  }
-
+  
   .meal-design-form{
     background-color: #f4f4f4;
     padding: 2em;
@@ -85,13 +81,7 @@ html, body{
   label{
     padding-left: 0.5em;
   }
-
-  .crust-tip,
-  .size-tip,
-  .toppings-tip{
-    font-size: smaller;
-  }
-
+  
   .yourOrder{
     display: none;
   }
