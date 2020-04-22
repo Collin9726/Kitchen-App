@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+@font-face{
+  font-family: 'hothamFont';
+  src: url(../fonts/HothamFreeDemo-L380G.ttf)
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    scroll-behavior: smooth;
+  }
+
+  .padding{
+    padding-bottom: 2em;
+  }
+  
+  .welcome{
+    width: 75%;
+    margin: 0% auto;
+    padding-top: 2em;
+  }
+  
+  .welcome hr{
+    border-top: 4px white solid;
+    width: 95%;
+    margin-top: .3em;
+    margin-bottom: 1em;
+  } 
+
+  .hr-black hr{
+    border-top: 2px #b4b4b4 solid;      
+  }
+
+  #footr{
+    font-family: hothamFont;
+    font-size: xx-large;
+  }
+  
+  footer{
+    background-color: rgb(17, 17, 63);
+    color: #d5d5d5;
+    padding-top: 1rem;
+    margin-top: 2em;
+    font-size: large;
+  }
+  
+  .form-group{    
+    line-height: 0%;
+  }
+
+  #myForm input{
+    color: black;
+  }  
+
+  #deliveryForm input{
+    color: black;
+  }
+  
+  .meal-design-form{
+    background-color: #f4f4f4;
+    padding: 2em;
+    margin-top: 1em;
+  }
+
+  .form-buttons{
+    background-color: #f4f4f4;
+    padding: 2em;
+  }
+
+  .removeOrder{
+    cursor: pointer;
+  }
+
+  .removeOrder:hover{
+    color: brown;
+  }
+
+  label{
+    padding-left: 0.5em;
+  }
+  
+  .yourOrder{
+    display: none;
+  }
+
+  .yourOrder p{
+    font-style: italic;
+  }
+
+  .order-bg-color{
+    background-color: lightgray;      
+    padding: 1em;
+    height: 100%;
+    position: relative;
+  }
+
+  .padTop{
+    margin-top: 1em;
+  }
+
+  #orderTotals{
+    font-size: 1.5em;    
+  }
+
+  .grand-total{
+    font-size: 1.8em;    
+  }
+
+  .bottom-align{
+    position: absolute;
+    bottom: 0em;
+  }
