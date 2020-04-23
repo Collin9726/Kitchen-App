@@ -23,6 +23,18 @@ body {
 .navbar-brand img {
     height: 2rem;
 }
+/*--- Nav Section ---*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+    color: white;
+}
+.navbar-brand img {
+    height: 2rem;
+}
 .navbar-nav li {
     padding-right: .7rem;
     text-decoration: none;
@@ -221,6 +233,13 @@ hr.socket {
     max-width: 100%;
     border-top: .2rem solid red;
     margin-top: 3rem;
+}
+.fixed-background1 {
+    background-image: url(img/green-pine-trees-1179229.jpg);
+    text-align: center;
+    background-size: contain;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
 }
 .fixed-background1 {
     background-image: url(img/green-pine-trees-1179229.jpg);
