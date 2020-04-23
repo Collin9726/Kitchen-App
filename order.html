@@ -6,15 +6,32 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>    
     <link href="css/order.css" rel="stylesheet" type="text/css">
-    <title>Your Order</title>
+    <title>Order</title>
 </head>
-<body>    
+<body>
+    <div class="container-fluid">
+        <div id="home">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand" href="#"><img src="img/food1.png"></a>
+                <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="order.html">ORDER</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>    
     <div class="container-fluid">
         <div class="row padding welcome text-center hr-black">
             <div class="col-12">
-                <h1 class="display-4">Kitchen App</h1>
+                <h1 class="display-4">Fast Food App</h1>
             </div>
             <hr>
             <div class="col-12">
@@ -342,11 +359,33 @@
     <!--footer-->
     <footer>
         <div class="container-fluid">
-            <div class="row text-center">                
-                <div class="col-12">
-                    <p><span id="footr">Kitchen App </span>2020</p>                                                      
-                </div>                
-            </div> 
+            <div id="contact" class="offset">
+                <footer>
+                <div class="row justify-content-center">
+                
+                    <div class="col-md-12 text-center">
+                        <img src="img/food1.png">
+                        <p>Fast Food App.</p>
+                        <strong>Contact Info</strong>
+                        <p>For any issues or order,contact us through</p>
+                        <p>+254 76666666</p>
+                        <p>Email our CEO and Founder</p>
+                        <p>fastfoodapp6@gmail.com</p>
+                        <div class="contact">
+                            <a class="contact" href="#"><img src="img/social/social1.png"></a>
+                            <a class="contact" href="#"><img src="img/social/social2.png"></a>
+                            <a class="contact" href="#"><img src="img/social/social3.png"></a>
+                            <a class="contact" href="#"><img src="img/social/social4.png"></a>
+                            <a class="contact" href="#"><img src="img/social/social5.png"></a>
+                        </div>
+                     <hr class="socket">
+                     &copy; Meal Group Company<br>
+                            P.O BOX: 999666,Nairobi,Kenya.<br>
+                            Copyright(c)2020.All rights reserved.
+                    </div>
+                </div>
+                </footer>	
+            </div>
         </div>
     </footer>    
 </body>
