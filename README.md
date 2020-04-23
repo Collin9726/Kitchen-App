@@ -49,13 +49,14 @@ To contribute to this project on any modules, follow these easy steps:
 ### Contact details
 
 For any queries, issues, ideas or concerns, contact any of the authors below:
-_[Collin Owino](owino.collin@gmail.com)
-_[Fadhili Muturi](fadhoturi01@gmail.com)
-_[Jerry Nabango](jerrynabango9@gmail.com)
-_[Ryan Rotich](austinbrian005@gmail.com)
-\*[Christine Mugambi](njeri.mugamby@gmail.com)
+
+- [Collin Owino](owino.collin@gmail.com)
+- [Fadhili Muturi](fadhoturi01@gmail.com)
+- [Jerry Nabango](jerrynabango9@gmail.com)
+- [Ryan Rotich](austinbrian005@gmail.com)
+- [Christine Mugambi](njeri.mugamby@gmail.com)
 
 ### License
 
-\*MIT license
+MIT license
 Copyright (c) 2020 Team Users
