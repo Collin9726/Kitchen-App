@@ -16,7 +16,7 @@ This is an app that enables students and staff at Moringa School to order food f
 
 By [Collin Owino](https://github.com/Collin9726), [Fadhili Muturi](https://github.com/Fadhili01), [Jerry Nabango](https://github.com/jerrynabango), [Christine Mugambi](https://github.com/Christine752) and [Ryan Rotich](https://github.com/RYAN2540).
 
-## Latest updated version is on Thursday, 23rd April 2020.
+#### Latest updated version is on Thursday, 23rd April 2020.
 
 ### Problem statement
 
@@ -25,7 +25,7 @@ Lunch time is short and with busy schedules makes it even shorter. It becomes a 
 ### Solution
 
 Hence, our project aims to make the process faster, easier and more efficient, and generally time-saving.
-\*Check out the project through this link: <a href="https://christine752.github.io/Kitchen-App/">
+\*Check out the project through <a href="https://christine752.github.io/Kitchen-App/">This Link.</a>
 
 ### Technologies used
 
