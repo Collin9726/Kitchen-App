@@ -1,83 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
     color: black;
+  
 }
-
-.container {
-    position: absolute !important;
-    top: 0 !important;
-    bottom: 0 !important;
-    right: 0 !important;
-    left: 0 !important;
-    background-color: blue !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    width: 100%;
-    height: 100%;
-}
-
-#overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    overflow: auto;
-    width: 100%;
-    height: 100%
-}
-
-.intro {
-    background-image: url("/css/images (14).jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-position: center center center center;
-    padding-bottom: 300px;
-}
-
-h1 {
-    font-weight: bolder;
-    font-style: italic;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif' !important;
-    padding-top: 10px;
-    color: #D6DBDF;
-    text-shadow: 0 0 10px #CB4335;
-}
-
-.greatnav {
-    padding-top: 20px;
-    text-align: left;
-    text-decoration: none;
-    right: 0;
-    left: 0;
-    z-index: 3;
-}
-
-li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-li>a {
-    text-decoration: none;
-    padding: 15px;
-    margin: 0;
+.offset:before {
     display: block;
-    text-transform: uppercase;
-    color: #D0D3D4;
-    text-shadow: 0 0 10px #CB4335;
+    content:"";
+    height: 4rem;
+    margin-top: -4rem;
 }
-
-a:hover {
-    box-shadow: 0 0 10px #E74C3C;
-    color: #E6B0AA;
+/*--- Nav Section ---*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+    color: white;
+}
+.navbar-brand img {
+    height: 2rem;
+}
+.navbar-nav li {
+    padding-right: .7rem;
     text-decoration: none;
 }
-
-.logo {
-    padding-top: 100px;
-    border-radius: 50%;
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: gold;
+}
+.home-inner {
+    background-image: url(img/burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg);
+}
+.home-inner1 {
+    background-image: url(img/image-asset.);
+}
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: .3rem;
+    color: gold;
+}
+.caption p {
+    font-size: 1.4rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+    color: red;
 }
 #state {
     font-weight: bolder;
@@ -85,53 +66,34 @@ a:hover {
     font-family: cursive;
     text-shadow: 0 0 10px #CB4335;
 }
-
-.histo,
-.branch {
-    text-shadow: 0 0 2px #BDC3C7;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 50px;
+.btn-secondary {
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: .6rem 1.2rem;
+    margin: 1rem;
+    color: black;
+    background-color: yellow;
+    border-color: red;
 }
-
-#img1,
-#img2,
-#img3,
-#img4,
-#img5 {
-    border-radius: 50%;
+.btn-secondary:hover {
+    color: white;
+    background-color: red;
+    border-color: yellow;
 }
-
-.branch {
-    padding-top: 30px;
+.col-md-12 {
+    margin: 1.5rem;
+    padding-top: 2rem;
 }
-
-#img1,
-#img2,
-#img3,
-#img4,
-#img5 {
-    border: hidden;
-    box-shadow: 0 0 10px #DC7633;
+.col-md-12 h2 {
+    font-size: 2.4rem;
+    color: red;
 }
-
-footer {
-    text-align: center;
-    padding-top: 70px;
-    padding-bottom: 30px;
-    margin: 10px 10px 10px 10px;
-}
-
-#img3,
-#img4,
-#img5 {
-    padding-bottom: 20px;
-}
-
-.picha {
+.col-md-12 p {
     text-align: center;
 }
-
+/*--- Form Section ---*/
 textarea {
     resize: none;
 }
@@ -151,86 +113,33 @@ button {
 .pass {
     padding-bottom: 40px;
 }
-
-#piz1,
-#piz2,
-#piz3,
-#piz4,
-#piz5,
-#piz6,
-#piz7,
-#piz8,
-#piz9,
-#piz10,
-#piz11,
-#piz12,
-#piz13,
-#piz14,
-#piz15,
-#piz16,
-#piz17,
-#piz18,
-#piz19,
-#piz20,
-#piz21,
-#piz22,
-#piz23 {
-    border-radius: 50%;
-    box-shadow: 0 0 10px #DC7633;
-}
-
-.clap {
-    background-image: url("/css/download (7).jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-bottom: 250px;
-    padding-left: 50px;
-}
-
-.menu {
-    text-align: center;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    text-shadow: 0 0 2px #BDC3C7;
-}
-
-#par1,
-#par2,
-#par3,
-#par4,
-#par5,
-#par6,
-#par7,
-#par8,
-#par9,
-#par10,
-#par11,
-#par12,
-#par13,
-#par14,
-#par15,
-#par16,
-#par17,
-#par18,
-#par19,
-#par20,
-#par21,
-#par22,
-#par23 {
-    padding-top: 25px;
-    font-style: italic;
-    color: #D98880;
-}
-#img1:hover,
-#img2:hover,
-#img3:hover,
-#img4:hover,
-#img5:hover {
+/*--- Menu Section ---*/
+#dish1:hover,
+#dish2:hover,
+#dish3:hover,
+#dish4:hover,
+#dish5:hover,
+#dish6:hover,
+#dish7:hover,
+#dish8:hover,
+#dish9:hover,
+#dish10:hover,
+#dish11:hover,
+#dish12:hover,
+#dish13:hover,
+#dish14:hover,
+#dish15:hover,
+#dish16:hover,
+#dish17:hover,
+#dish18:hover,
+#dish19:hover,
+#dish20:hover,
+#dish21:hover,
+#dish22:hover,
+#dish23:hover {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    width: 170px;
 }
 .para1,
 .para2,
@@ -260,66 +169,63 @@ button {
     font-style: italic;
     color: #F7DC6F;
 }
-
-.choice {
-    padding-top: 30px;
+#par1,
+#par2,
+#par3,
+#par4,
+#par5,
+#par6,
+#par7,
+#par8,
+#par9,
+#par10,
+#par11,
+#par12,
+#par13,
+#par14,
+#par15,
+#par16,
+#par17,
+#par18,
+#par19,
+#par20,
+#par21,
+#par22,
+#par23 {
+    padding-top: 25px;
+    font-style: 'Lato', sans-serif;
+    color: black;
 }
-
-.deliver {
-    background-image: url(/css/images.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-bottom: 250px;
-    padding-left: 50px;
+/*--- Contact Section ---*/
+footer {
+    background-color:yellow;
+    color: black;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
 }
-
-#order {
-    background-color: #EC7063 !important;
-    box-shadow: 0 0 10px #DC7633;
+footer img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+footer a {
+    color: white;
+}
+  footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+    color: #1ebba3!important;
+}
+hr.socket {
+    max-width: 100%;
+    border-top: .2rem solid red;
+    margin-top: 3rem;
+}
+.fixed-background1 {
+    background-image: url(img/green-pine-trees-1179229.jpg);
     text-align: center;
-}
-select {
-    box-shadow: 0 0 10px #DC7633;
-}
-
-.over {
-    border: 1px solid black;
-    padding: 20px 20px 20px 20px;
-    box-shadow: 0 0 15px #DC7633;
-}
-
-h3 {
-    text-align: center;
-}
-
-.pass {
-    padding-top: 40px;
-}
-#dish1:hover,
-#dish2:hover,
-#dish3:hover,
-#dish4:hover,
-#dish5:hover,
-#dish6:hover,
-#dish7:hover,
-#dish8:hover,
-#dish9:hover,
-#dish10:hover,
-#dish11:hover,
-#dish12:hover,
-#dish13:hover,
-#dish14:hover,
-#dish15:hover,
-#dish16:hover,
-#dish17:hover,
-#dish18:hover,
-#dish19:hover,
-#dish20:hover,
-#dish21:hover,
-#dish22:hover,
-#dish23:hover {
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    background-size: contain;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
 }
